@@ -1,0 +1,22 @@
+[gd_scene load_steps=2 format=2]
+
+[sub_resource type="ParticlesMaterial" id=1]
+lifetime_randomness = 0.05
+emission_shape = 1
+emission_sphere_radius = 15.0
+flag_disable_z = true
+flatness = 1.0
+gravity = Vector3( 0, 98, 0 )
+initial_velocity = 39.21
+orbit_velocity = 0.0
+orbit_velocity_random = 0.0
+linear_accel = 15.69
+scale = 3.0
+color = Color( 0.0470588, 0.0470588, 0.0470588, 1 )
+
+[node name="Particles2D" type="Particles2D"]
+emitting = false
+amount = 5
+lifetime = 0.3
+one_shot = true
+process_material = SubResource( 1 )

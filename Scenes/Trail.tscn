@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Scripts/Trail.gd" type="Script" id=1]
+
+[node name="Trail" type="Line2D"]
+points = PoolVector2Array( 888, 304 )
+width = 3.0
+default_color = Color( 0.886275, 0.886275, 0.886275, 1 )
+joint_mode = 1
+script = ExtResource( 1 )
